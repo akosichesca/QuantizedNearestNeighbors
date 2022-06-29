@@ -1,11 +1,17 @@
 # QuantizedNearestNeighbors
 
-This is a code to implement a simple Quantized Nearest Neighbor Search. There are three commmand line arguments: \n
+This is a code to implement a simple Quantized Nearest Neighbor Search. 
+
+There are three commmand line arguments: 
+
 -d-metric : which determines what distance function to use
+
 -qbits : number of bits to represent each dimension
+
 -dataset: name of dataset to use
 
 python run.py -d-metric [string] -qbits [number] -dataset [number]
+
 (all commandline arguments can be removed)
 
 -d-metric [string]
