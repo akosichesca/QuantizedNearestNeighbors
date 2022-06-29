@@ -5,7 +5,7 @@ This is a code to implement a simple Quantized Nearest Neighbor Search. To run, 
 
 ## Installation
 This requires installing python, pandas and scikit-learn
-> pip install pandas, scikit-learn
+> pip install pandas scikit-learn
 
 ## Command Line Arguments
 
