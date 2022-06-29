@@ -1,27 +1,40 @@
 # QuantizedNearestNeighbors
 
-This is a code to implement a simple Quantized Nearest Neighbor Search. 
+This is a code to implement a simple Quantized Nearest Neighbor Search. To run, use the following code:
+> python run.py 
 
-There are three commmand line arguments: 
+## Installation
+This requires installing python, pandas and scikit-learn
+> pip install pandas, scikit-learn
 
--d-metric : which determines what distance function to use
+## Command Line Arguments
 
--qbits : number of bits to represent each dimension
+There are also three commmand line arguments: 
 
--dataset: name of dataset to use
+**-d-metric** : which determines what distance function to use
 
-python run.py -d-metric [string] -qbits [number] -dataset [number]
+**-qbits** : number of bits to represent each dimension
+
+**-dataset** : name of dataset to use
+
+> python run.py  -d-metric [string] -qbits [number] -dataset [number]
+
+
 
 (all commandline arguments can be removed)
 
--d-metric [string]
+
+**-d-metric** [string]
+
 [string] : dot, cosine, euclidean, manhattan, mcam, mcam_ideal, lsh
 If not included uses dot product.
 
--qbits [number]
+**-qbits** [number]
+
 [num] number of quantized bits
 It will do full precision if not included as argument.
 
--dataset [number]
+**-dataset** [number]
+
 [string] : cancer, dermatology, glass, ionosphere, iris, liver, soybean, adult, heart, wine
 If not included uses wine dataset.
