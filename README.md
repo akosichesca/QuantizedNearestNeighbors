@@ -1,6 +1,6 @@
 # QuantizedNearestNeighbors
 
-This is a code to implement a simple Quantized Nearest Neighbor Search. There are three commmand line arguments:
+This is a code to implement a simple Quantized Nearest Neighbor Search. There are three commmand line arguments: \n
 -d-metric : which determines what distance function to use
 -qbits : number of bits to represent each dimension
 -dataset: name of dataset to use
